@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'ArialNarrow';
+	src: url('../../src/assets/fonts/ArialNarrow-Bold.eot');
+	src: local('Arial Narrow Bold'), local('ArialNarrow-Bold'),
+		url('../../src/assets/fonts/ArialNarrow-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'ArialNarrow';
+	src: url('../../src/assets/fonts/ArialNarrow-BoldItalic.eot');
+	src: local('Arial Narrow Bold Italic'), local('ArialNarrow-BoldItalic'),
+		url('../../src/assets/fonts/ArialNarrow-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'ArialNarrow';
+	src: url('../../src/assets/fonts/ArialNarrow.eot');
+	src: local('Arial Narrow'), local('ArialNarrow'),
+		url('../../src/assets/fonts/ArialNarrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'ArialNarrow';
+	src: url('../../src/assets/fonts/ArialNarrow-Italic.eot');
+	src: local('Arial Narrow Italic'), local('ArialNarrow-Italic'),
+		url('../../src/assets/fonts/ArialNarrow-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+  font-display: swap;
+}
+
+#app {
+  font-family: 'ArialNarrow', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  color: #2c3e50;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #007bc1;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.form > div {
+  width: 100%;
+}
+
+.form__label {
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  min-width: 75%;
+  padding: 15px 10px;
+  margin: 5px 0;
+  border: 1px solid #007bc1;
+  background: rgba(0, 123, 194, 0.05)
+}
+
+.form__input {
+  font-family: 'ArialNarrow', Helvetica, Arial, sans-serif;
+  min-width: 30%;
+}
+
+.form__select {
+  font-family: 'ArialNarrow', Helvetica, Arial, sans-serif;
+  min-width: 30%;
+}
+
+button {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: rgb(0, 51, 102);
+  background-color: #fff;
+  border: 1px solid rgb(0, 51, 102);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #007bc1;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn>input {
+  font-size: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: rgb(0, 51, 102);
+  background-color: #fff;
+  border: 1px solid rgb(0, 51, 102);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn>input:hover {
+  color: #fff;
+  background-color: #007bc1;
+}
